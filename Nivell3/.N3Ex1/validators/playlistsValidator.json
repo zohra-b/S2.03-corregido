@@ -1,0 +1,32 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": [
+      "user",
+      "playlistTitle"
+    ],
+    "properties": {
+      "user": {
+        "bsonType": "objectId",
+        "description": "user id from users collection"
+      },
+      "playlistTitle": {
+        "bsonType": "string"
+      },
+      "playlistCreationDate": {
+        "bsonType": "date"
+      },
+      "playlistStatus": {
+        "bsonType": "string",
+        "enum": [
+          "public",
+          "private"
+        ]
+      },
+      "playlistVideos": {
+        "bsonType": "array",
+        "description": "array of objectId linked to videos collections"
+      }
+    }
+  }
+}

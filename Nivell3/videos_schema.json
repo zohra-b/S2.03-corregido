@@ -1,0 +1,221 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": [
+      "user",
+      "title"
+    ],
+    "properties": {
+      "user": {
+        "bsonType": "object",
+        "required": [
+          "email",
+          "password",
+          "userName"
+        ],
+        "properties": {
+          "email": {
+            "bsonType": "string",
+            "description": "the email"
+          },
+          "password": {
+            "bsonType": "string"
+          },
+          "userName": {
+            "bsonType": "string"
+          },
+          "birthdate": {
+            "bsonType": "date"
+          },
+          "gender": {
+            "bsonType": "string"
+          },
+          "country": {
+            "bsonType": "string"
+          },
+          "cp": {
+            "bsonType": "string"
+          }
+        }
+      },
+      "title": {
+        "bsonType": "string"
+      },
+      "videoDescription": {
+        "bsonType": "string"
+      },
+      "videoSize": {
+        "bsonType": "long"
+      },
+      "filename": {
+        "bsonType": "string"
+      },
+      "videoLength": {
+        "bsonType": "int"
+      },
+      "thumbnail": {
+        "bsonType": "binData"
+      },
+      "status": {
+        "bsonType": "string",
+        "enum": [
+          "public",
+          "private",
+          "hidden"
+        ]
+      },
+      "videosTags": {
+        "bsonType": "array",
+        "description": "array of strings"
+      },
+      "creationDate": {
+        "bsonType": "date"
+      },
+      "viewsCount": {
+        "bsonType": "int",
+        "description": "Number of views, incremented at every video display"
+      },
+      "likesCount": {
+        "bsonType": "int",
+        "description": "Number of likes, incremented with each like"
+      },
+      "dislikesCount": {
+        "bsonType": "int",
+        "description": "Number of likes, incremented with each dislike"
+      },
+      "likes": {
+        "bsonType": "object",
+        "required": [
+          "user"
+        ],
+        "properties": {
+          "user": {
+            "bsonType": "object",
+            "required": [
+              "email",
+              "password",
+              "userName"
+            ],
+            "properties": {
+              "email": {
+                "bsonType": "string",
+                "description": "the email"
+              },
+              "password": {
+                "bsonType": "string"
+              },
+              "userName": {
+                "bsonType": "string"
+              },
+              "birthdate": {
+                "bsonType": "date"
+              },
+              "gender": {
+                "bsonType": "string"
+              },
+              "country": {
+                "bsonType": "string"
+              },
+              "cp": {
+                "bsonType": "string"
+              }
+            }
+          },
+          "likeCreationDate": {
+            "bsonType": "date"
+          }
+        }
+      },
+      "dislikes": {
+        "bsonType": "object",
+        "required": [
+          "user"
+        ],
+        "properties": {
+          "user": {
+            "bsonType": "object",
+            "required": [
+              "email",
+              "password",
+              "userName"
+            ],
+            "properties": {
+              "email": {
+                "bsonType": "string",
+                "description": "the email"
+              },
+              "password": {
+                "bsonType": "string"
+              },
+              "userName": {
+                "bsonType": "string"
+              },
+              "birthdate": {
+                "bsonType": "date"
+              },
+              "gender": {
+                "bsonType": "string"
+              },
+              "country": {
+                "bsonType": "string"
+              },
+              "cp": {
+                "bsonType": "string"
+              }
+            }
+          },
+          "likeCreationDate": {
+            "bsonType": "date"
+          }
+        }
+      },
+      "comments": {
+        "bsonType": "object",
+        "required": [
+          "user",
+          "text"
+        ],
+        "properties": {
+          "user": {
+            "bsonType": "object",
+            "required": [
+              "email",
+              "password",
+              "userName"
+            ],
+            "properties": {
+              "email": {
+                "bsonType": "string",
+                "description": "the email"
+              },
+              "password": {
+                "bsonType": "string"
+              },
+              "userName": {
+                "bsonType": "string"
+              },
+              "birthdate": {
+                "bsonType": "date"
+              },
+              "gender": {
+                "bsonType": "string"
+              },
+              "country": {
+                "bsonType": "string"
+              },
+              "cp": {
+                "bsonType": "string"
+              }
+            }
+          },
+          "text": {
+            "bsonType": "string"
+          },
+          "commentCreationDate": {
+            "bsonType": "date"
+          }
+        }
+      }
+    }
+  }
+}

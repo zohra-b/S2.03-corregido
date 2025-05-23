@@ -1,0 +1,27 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required" : ["user","channelTitle"],
+
+    "properties": {
+      "user" : {
+        "bsonType" : "objectId",
+        "description": "user id from users collection"
+      },
+      "channelTitle" : {
+        "bsonType" : "string"
+      } ,
+      "channelDescription" : {
+        "bsonType" : "string"
+      },
+      "channelCreationDate" : {
+        "bsonType" : "date"
+      },
+      "channelVideos" : {
+        "bsonType" : "array",
+        "description" : "array of objectIds linked to videos collection"
+      }
+
+    }
+  }
+}

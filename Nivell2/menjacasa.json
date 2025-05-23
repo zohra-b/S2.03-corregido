@@ -1,0 +1,167 @@
+[
+  {
+    "orders": [
+      {
+        "_id": {
+          "$oid": "680c5a714998de28b9c8c9c9"
+        },
+        "shop": {
+          "_id": {
+            "$oid": "680c55ca4998de28b9c8c9c1"
+          },
+          "name": "Pizza Barcelona Centre",
+          "address": "Carrer de Balmes, 45",
+          "cp": "08007",
+          "city": "Barcelona",
+          "province": "Barcelona"
+        },
+        "date": {
+          "$date": "2025-04-23T12:00:00.000Z"
+        },
+        "customer": {
+          "_id": {
+            "$oid": "680a1e175866cc8d7b5e5571"
+          },
+          "name": "Mireille",
+          "surnames": "Sorgues",
+          "address": "c/ Vila, 10",
+          "cp": "08001",
+          "city": "Barcelona",
+          "province": "Catalunya",
+          "tel": "69865469"
+        },
+        "orderType": "Recollida en botiga",
+        "orderedProducts": [
+          {
+            "product": {
+              "_id": {
+                "$oid": "680c53904998de28b9c8c9bb"
+              },
+              "name": "Cola Zero",
+              "productCategory": "beguda",
+              "description": "Cola sense sucre.",
+              "price": {
+                "$numberDecimal": "2.00"
+              }
+            },
+            "quantity": 2
+          },
+          {
+            "product": {
+              "_id": {
+                "$oid": "680c54044998de28b9c8c9bd"
+              },
+              "name": "Pizza Margherita",
+              "productCategory": "pizza",
+              "pizzaCategoryId": {
+                "_id": {
+                  "$oid": "680a24e5cf600830e4b5f8a1"
+                },
+                "name": "Les classiques",
+                "lastModified": {
+                  "$date": "2025-04-23T12:00:00.000Z"
+                }
+              },
+              "description": "Pizza amb salsa de tomàquet, mozzarella i alfàbrega.",
+              "price": {
+                "$numberDecimal": "9.50"
+              }
+            },
+            "quantity": 1
+          }
+        ],
+        "totalPrice": {
+          "$numberDecimal": "13.50"
+        }
+      },
+      {
+        "_id": {
+          "$oid": "680c5cc54998de28b9c8c9ce"
+        },
+        "shop": {
+          "_id": {
+            "$oid": "680c55ca4998de28b9c8c9c2"
+          },
+          "name": "Burger Valencia Nord",
+          "address": "Avinguda del Port, 12",
+          "cp": "46021",
+          "city": "Valencia",
+          "province": "Valencia"
+        },
+        "date": {
+          "$date": "2025-04-26T12:00:00.000Z"
+        },
+        "customer": {
+          "_id": {
+            "$oid": "681b2056853a2ebf77bd3a6b"
+          },
+          "name": "Olfa",
+          "surnames": "Ramírez",
+          "address": "c/ Verdaguer, 120",
+          "cp": "08015",
+          "city": "Barcelona",
+          "province": "Catalunya",
+          "tel": "633222555"
+        },
+        "orderType": "A domicili",
+        "employee": {
+          "_id": {
+            "$oid": "680a1e3e5866cc8d7b5e5573"
+          },
+          "name": "Paola",
+          "surname": "Delgado",
+          "address": "Camí de les roses, 2",
+          "phoneNumber": "631321441",
+          "nif": "34566780B",
+          "status": "delivery"
+        },
+        "deliveryAddress": "30 rue du cheval d'argent, 08034 Barcelona",
+        "deliveryDateHour": {
+          "$date": "1970-01-01T00:00:00.000Z"
+        },
+        "orderedProducts": [
+          {
+            "product": {
+              "_id": {
+                "$oid": "680c54394998de28b9c8c9be"
+              },
+              "name": "Pizza 4 Fromages",
+              "productCategory": "pizza",
+              "pizzaCategoryId": {
+                "_id": {
+                "$oid": "680a26ffcf600830e4b5f8a3"
+              },
+              "name": "Les blanques",
+              "lastModified": {
+                "$date": "2025-04-23T12:00:00.000Z"
+
+              }},
+              "description": "Pizza avec mozzarella, gorgonzola, emmental et parmesan.",
+              "price": {
+                "$numberDecimal": "11.00"
+              }
+            },
+            "quantity": 1
+          },
+          {
+            "product": {
+              "_id": {
+                "$oid": "680c53a94998de28b9c8c9bc"
+              },
+              "name": "Birra Zero",
+              "productCategory": "beguda",
+              "description": "Cervesa sense alcohol.",
+              "price": {
+                "$numberDecimal": "2.00"
+              }
+            },
+            "quantity": 1
+          }
+        ],
+        "totalPrice": {
+          "$numberDecimal": "13.00"
+        }
+      }
+    ]
+  }
+]

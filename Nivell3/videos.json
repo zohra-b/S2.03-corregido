@@ -1,0 +1,180 @@
+[
+  {
+    "_id": {
+      "$oid": "681b3fdd853a2ebf77bd3a80"
+    },
+    "user": {
+      "_id": {
+        "$oid": "681b2afa853a2ebf77bd3a76"
+      },
+      "email": "bestjavachannel@gamail.com",
+      "password": "123456",
+      "userName": "BestJavaChannel",
+      "birthdate": {
+        "$date": "2004-04-26T12:00:00.000Z"
+      },
+      "gender": "M",
+      "country": "Spain",
+      "cp": "08001"
+    },
+    "properties": {
+      "title": "Herencia y polimorfismo"
+    ,
+    "videoDescription": "De zero a hero con herencia in Java",
+    "videoSize": 1234567897123454512,
+    "filename": "herenciapoli.jpeg",
+    "videoLength": 568,
+    "status": "public",
+    "videosTags": [
+      "java",
+      "herencia",
+      "polimorfismo"
+    ],
+    "creationDate": {
+      "$date": "2025-05-04T12:00:00.000Z"
+    }
+  },
+    "viewsCount" : 3,
+    "likesCount" : 1,
+    "dislikesCount" : 0,
+    "likes" : [
+      {
+        "_id": {
+          "$oid": "681b4a5c853a2ebf77bd3a92"
+        },
+        "user": {
+          "_id": {
+            "$oid": "681b436b853a2ebf77bd3a87"
+          },
+          "email": "fridak@gmail.com",
+          "password": "123456",
+          "userName": "frida2004",
+          "birthdate": {
+            "$date": "2004-03-26T12:00:00.000Z"
+          },
+          "gender": "F",
+          "country": "Spain",
+          "cp": "08002"
+        },
+        "likeCreationDate": {
+          "$date": "2025-05-05T12:00:00.000Z"
+        }
+      }
+    ],
+    "dislikes": [],
+    "comments" : [
+      {
+      "_id": {
+        "$oid": "681b48b3853a2ebf77bd3a8d"
+      },
+      "user" : {
+        "_id": {
+          "$oid": "681b43a9853a2ebf77bd3a88"
+        },
+        "email": "gamer3000@gmail.com",
+        "password": "123456",
+        "userName": "wildgamer",
+        "birthdate": {
+          "$date": "1999-03-01T12:00:00.000Z"
+        },
+        "gender": "M",
+        "country": "Spain",
+        "cp": "08002"
+      },
+      "text" : "Me ha encantado !",
+      "commentCreationDate" :  {
+        "$date": "2025-05-04T12:00:00.000Z"
+      }
+      }
+    ]
+
+  },
+  {
+    "_id": {
+      "$oid": "681b409b853a2ebf77bd3a81"
+    },
+    "user": {
+      "_id": {
+        "$oid": "681b2afa853a2ebf77bd3a76"
+      },
+      "email": "bestjavachannel@gamail.com",
+      "password": "123456",
+      "userName": "BestJavaChannel",
+      "birthdate": {
+        "$date": "2004-04-26T12:00:00.000Z"
+      },
+      "gender": "M",
+      "country": "Spain",
+      "cp": "08001"
+    },
+    "properties" :     {
+      "title": "Tests con JUnits",
+    "videoDescription": "",
+    "videoSize": 123456789712345,
+    "filename": "testJunit.jpeg",
+    "videoLength": 459,
+    "status": "public",
+    "videosTags": [
+      "java",
+      "testing",
+      "Junit"
+    ],
+    "creationDate": {
+      "$date": "2025-05-05T12:00:00.000Z"
+    }
+  },
+    "viewsCount" : 1,
+    "likesCount" : 0,
+    "dislikesCount" : 1,
+    "likes" : [  ],
+    "dislikes" : [
+      {
+
+        "_id": {
+          "$oid": "681b4a5c853a2ebf77bd3a11"
+        },
+        "user": {
+          "_id": {
+            "$oid": "681b436b853a2ebf77bd3a87"
+          },
+          "email": "fridak@gmail.com",
+          "password": "123456",
+          "userName": "frida2004",
+          "birthdate": {
+            "$date": "2004-03-26T12:00:00.000Z"
+          },
+          "gender": "F",
+          "country": "Spain",
+          "cp": "08002"
+        },
+        "likeCreationDate": {
+          "$date": "2025-05-05T12:00:00.000Z"
+        }
+
+      }
+    ],
+    "comments" : [{
+      "_id": {
+        "$oid": "681b4912853a2ebf77bd3a8e"
+      },
+      "user" : {
+        "_id": {
+          "$oid": "681b43a9853a2ebf77bd3a88"
+        },
+        "email": "gamer3000@gmail.com",
+        "password": "123456",
+        "userName": "wildgamer",
+        "birthdate": {
+          "$date": "1999-03-01T12:00:00.000Z"
+        },
+        "gender": "M",
+        "country": "Spain",
+        "cp": "08002"
+      },
+      "text" : "Ahora estoy aún más perdido. Haría falta otro vídeo, gracias",
+      "commentCreationDate" :  {
+        "$date": "2025-05-04T12:00:00.000Z"
+      }
+    }]
+  }
+]
